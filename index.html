@@ -10,11 +10,11 @@
   <style>
     /* Navigation */
     .navbar-dark .navbar-nav .nav-link {
-      color: #fff;
+      color: #8b8b8b;
       margin-right: 10px;
     }
     .navbar-dark .navbar-nav .nav-link:hover {
-      text-decoration: underline;
+     opacity: 0.8;
     }
 
     /* Hero Section */
@@ -90,6 +90,15 @@
       color: #fff;
     }
 
+    .view-button:hover {
+      background-color: rgb(71, 20, 20);
+      color: #ffffff;
+    }
+
+    .view-button:active {
+      opacity: 0.8;
+    }
+
     .view-button2 {
       padding: 15px 40px;
       background-color: rgb(105, 25, 25);
@@ -99,6 +108,15 @@
       text-decoration: none;
       border-radius: 10px;
       color: #fff;
+    }
+
+   .view-button2:hover {
+      background-color: rgb(71, 20, 20);
+      color: #ffffff;
+    }
+
+    .view-button2:active {
+      opacity: 0.8;
     }
 
     .content-grid {
@@ -221,6 +239,15 @@
       height: 40px;
     }
 
+     .contact-icons img:hover {
+      opacity: 0.8;
+    }
+
+     .contact-icons img:active {
+      opacity: 0.5;
+    }
+
+
     /* Footer */
     .bottom-tool-bar {
       display: flex;
@@ -245,7 +272,8 @@
       text-decoration: none;
     }
     .toolink:hover {
-      text-decoration: underline;
+       color: #686e75;
+
     }
 
     /* Responsive Adjustments */
@@ -378,7 +406,7 @@
       </button>
       <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html"><span style="color: #fff;">Home</span></a></li>
           <li class="nav-item"><a class="nav-link" href="About-us.html">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="Locations-page-1.html">Locations</a></li>
           <li class="nav-item"><a class="nav-link" href="Contact-us.html">Contact Us</a></li>
